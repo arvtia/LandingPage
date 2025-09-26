@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 .chivo {
   font-family: "Chivo", sans-serif;
   font-optical-sizing: auto;
@@ -30,4 +32,15 @@
   font-family: "Arvo", serif;
   font-weight: 700;
   font-style: italic;
+}
+
+/* // <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name */
+
+
+.lora-chivo {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
