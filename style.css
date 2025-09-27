@@ -41,6 +41,11 @@
 /* // <weight>: Use a value from 400 to 700
 // <uniquifier>: Use a unique and descriptive class name */
 
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #fbb6ce, transparent);
+}
 
 .lora-chivo {
   font-family: "Lora", serif;
